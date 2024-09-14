@@ -9,32 +9,33 @@
 		<title>Nona's Bistro</title>
 
 		<!-- external CSS link -->
+		<script src="https://kit.fontawesome.com/b9633b0709.js" crossorigin="anonymous"></script> 
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<header>
-			<nav>
-				<div>
-					<img src="#" alt="logo">
+			<nav class="flex between align-c">
+				<div class="m1">
+					<i class="fa-solid fa-mug-hot"></i>
 				</div>
 				<div>
-					<ul>
-						<li><a href="#Home">Home</a></li>
-						<li><a href="#About">About Us</a></li>
-						<li><a href="#Menu">Menu</a></li>
-						<li><a href="#Order">Order Now</a></li>
-						<li><a href="#Blog">Blog</a></li>
-						<li><a href="#Locations">Locations</a></li>
-						<li><a href="#"><img src="#" alt="cart"></a></li>
-						<li><a href="#"><img src="#" alt="search"></a></li>
+					<ul class="flex around">
+						<li class="m1"><a href="#Home">Home</a></li>
+						<li class="m1"><a href="#About">About Us</a></li>
+						<li class="m1"><a href="#Menu">Menu</a></li>
+						<li class="m1"><a href="#Order">Order Now</a></li>
+						<li class="m1"><a href="#Blog">Blog</a></li>
+						<li class="m1"><a href="#Locations">Locations</a></li>
+						<li class="m1"><i class="fa-solid fa-cart-plus"></i></li>
+						<li class="m1"><i class="fa-solid fa-magnifying-glass"></i></li>
 					</ul>
 				</div>
 			</nav>
 			<section>
 				<!-- background image -->
-				<div>
-					<h1>Welcome To Humble House</h1>
+				<div class="title">
+					<h1>Welcome <br> To Humble House</h1>
 				</div>
 				<div>
 					<form>
@@ -43,10 +44,10 @@
 					</form>
 				</div>
 				<div>
-					<ul>
-						<li><a href="#"><img src="#" alt="FB">`${fb_sub}`</a></li>
-						<li><a href="#"><img src="#" alt="X">`${x_sub}`</a></li>
-						<li><a href="#"><img src="#" alt="IG">`${ig_sub}`</a></li>
+					<ul class="flex">
+						<li class="m1"><i class="fa-brands fa-facebook orange"></i><span>286</span></li>
+						<li class="m1"><i class="fa-brands fa-x-twitter orange"></i><span>312</span></li>
+						<li class="m1"><i class="fa-brands fa-instagram orange"></i><span>270</span></li>
 					</ul>
 				</div>
 			</section>
@@ -55,7 +56,9 @@
 		<section id="About">
 			<!-- background image -->
 			<div>
-				<div><h2>Discover Our Restaurant Story</h2></div>
+				<div class="title">
+					<h2>Discover Our Restaurant Story</h2>
+				</div>
 				<div>
 					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis esse obcaecati porro sit quam sint veniam, incidunt odit. Dignissimos molestias pariatur hic itaque. Dolor vero delectus dolores officiis voluptas?</p>
 					<br>
@@ -66,8 +69,12 @@
 		</section>
 		
 		<section id="Menu">
-			<div><h4>Order Online Now</h4></div>
-			<div><h3>Our Specialty Cuisine</h3></div>
+			<div>
+				<h4>Order Online Now</h4>
+			</div>
+			<div class="title">
+				<h3>Nona's Specialty Cuisine</h3>
+			</div>
 			<div>
 				<ul>
 					<li>Breakfast</li>
@@ -88,9 +95,11 @@
 		<section id="Hours">
 			<!-- background image -->
 			<div><h4>Book Table</h4></div>
-			<div><h3>Opening Hours</h3></div>
+			<div class="title">
+				<h3>Opening Hours</h3>
+			</div>
 			<div>
-				<img src="#" alt="phone">
+				<i class="fa-solid fa-phone"></i>
 				<span>Call Now</span>
 				<h3>+12345 678 910</h3>
 			</div>
@@ -114,7 +123,9 @@
 
 		<section id="Blog">
 			<div><h4>Testimonials</h4></div>
-			<div><h3>The Chatter</h3></div>
+			<div class="title">
+				<h3>The Chatter</h3>
+			</div>
 			<div>
 				<!-- blog card carousel -->
 				 <card>
@@ -123,13 +134,13 @@
 						<img src="#" alt="avatar">
 						<span>Super Fan 1</span>
 						<span>Profession</span>
-						<ul id="score">
+						<ul id="score" class="flex">
 							<!-- currently static -- make dynamic  -->
-							<li>*</li>
-							<li>*</li>
-							<li>*</li>
-							<li>*</li>
-							<li>*</li>
+							<li><i class="fa-solid fa-star"></i></li>
+							<li><i class="fa-solid fa-star"></i></li>
+							<li><i class="fa-solid fa-star"></i></li>
+							<li><i class="fa-solid fa-star"></i></li>
+							<li><i class="fa-regular fa-star-half-stroke"></i></li>
 						</ul>
 					</div>
 					<div>
@@ -138,7 +149,7 @@
 				 </card>
 			</div>
 		</section>
-
+		
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
