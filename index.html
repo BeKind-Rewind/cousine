@@ -15,6 +15,7 @@
 	</head>
 	<body>
 		<header>
+				<!-- background image -->
 			<nav class="flex between align-c">
 				<div class="m1">
 					<i class="fa-solid fa-mug-hot"></i>
@@ -32,10 +33,10 @@
 					</ul>
 				</div>
 			</nav>
-			<section>
-				<!-- background image -->
-				<div class="title">
-					<h1>Welcome <br> To Humble House</h1>
+			<section id="Welcome" class="p-b6">
+			
+				<div>
+					<h1 class="title">Welcome <br> To Humble House</h1>
 				</div>
 				<div>
 					<form>
@@ -53,11 +54,11 @@
 			</section>
 		</header>
 
-		<section id="About">
+		<section id="About" class="p-b6">
 			<!-- background image -->
 			<div>
-				<div class="title">
-					<h2>Discover Our Restaurant Story</h2>
+				<div>
+					<h2 class="title">Discover Our Restaurant Story</h2>
 				</div>
 				<div>
 					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis esse obcaecati porro sit quam sint veniam, incidunt odit. Dignissimos molestias pariatur hic itaque. Dolor vero delectus dolores officiis voluptas?</p>
@@ -68,15 +69,15 @@
 			</div>
 		</section>
 		
-		<section id="Menu">
+		<section id="Menu" class="p-b6">
 			<div>
-				<h4>Order Online Now</h4>
+				<h4 class="orange">Order Online Now</h4>
 			</div>
 			<div class="title">
 				<h3>Nona's Specialty Cuisine</h3>
 			</div>
 			<div>
-				<ul>
+				<ul class="flex around orange">
 					<li>Breakfast</li>
 					<li>Lunch</li>
 					<li>Dinner</li>
@@ -86,15 +87,22 @@
 			</div>
 			<div>
 				<!-- image menu based on selection-->
-				<card>
-					<img src="#" alt="food"> 
-				</card>
+				<ul class="flex around">
+					<li><img src="/assets/food.png" alt="food" class="food"></li>
+					<li><img src="/assets/food.png" alt="food" class="food"></li>
+					<li><img src="/assets/food.png" alt="food" class="food"></li>
+					<li><img src="/assets/food.png" alt="food" class="food"></li>
+					<li><img src="/assets/food.png" alt="food" class="food"></li>
+				</ul>
+				
+			
+				
 			</div>
 		</section>
 
-		<section id="Hours">
+		<section id="Hours" class="p-b6">
 			<!-- background image -->
-			<div><h4>Book Table</h4></div>
+			<div><h4 class="orange">Book Table</h4></div>
 			<div class="title">
 				<h3>Opening Hours</h3>
 			</div>
@@ -103,37 +111,42 @@
 				<span>Call Now</span>
 				<h3>+12345 678 910</h3>
 			</div>
-			<div>
-				<div>
-					<span>Monday to Tuesday</span>
-					<span>09:00 am - 22:00 pm</span>
+			<div class="flex around">
+				<div class="days">
+					<h6>Monday to Tuesday</h6>
+					<h6>09:00 am - 22:00 pm</h6>
 				</div>
-				<div>
-					<span>Friday to Sunday</span>
-					<span>11:00 am - 20:00 pm</span>
+				<div class="days">
+					<h6>Friday to Sunday</h6>
+					<h6>11:00 am - 20:00 pm</h6>
 				</div>
 			</div>
 			<div>
 				<!-- video carousel -->
-				 <card>
-					<img src="#" alt="Our service">
-				 </card>
+				<ul class="flex around">
+					<li><img src="/assets/food.png" alt="food" class="food"></li>
+					<li><img src="/assets/food.png" alt="food" class="food"></li>
+					<li><img src="/assets/food.png" alt="food" class="food"></li>
+					<li><img src="/assets/food.png" alt="food" class="food"></li>
+					<li><img src="/assets/food.png" alt="food" class="food"></li>
+				</ul>
 			</div>
 		</section>
 
-		<section id="Blog">
-			<div><h4>Testimonials</h4></div>
+		<section id="Blog" class="p-b6">
+			<div><h4 class="orange">Testimonials</h4></div>
 			<div class="title">
 				<h3>The Chatter</h3>
 			</div>
 			<div>
 				<!-- blog card carousel -->
 				 <card>
-					<div>
+					<div >
 						<!-- background image -->
-						<img src="#" alt="avatar">
-						<span>Super Fan 1</span>
-						<span>Profession</span>
+						<div><i class="fa-solid fa-user fa-2xl m1"></i></div>
+						<div><span>Super Fan 1</span></div>
+						<div><span>Profession</span></div>
+					
 						<ul id="score" class="flex">
 							<!-- currently static -- make dynamic  -->
 							<li><i class="fa-solid fa-star"></i></li>
@@ -148,6 +161,25 @@
 					</div>
 				 </card>
 			</div>
+		</section>
+
+		<section id="#Locations" class="p-b6 flex evenly">
+			<div>
+				<h4>Restaurant 1</h4>
+				<h6>101 Main St</h6>
+				<h6>Somewhere, ST</h6>
+			</div>
+			<div>
+				<h4>Restaurant 2</h4>
+				<h6>16 Sudbury St</h6>
+				<h6>Elsewhere, ST</h6>
+			</div>
+			<div>
+				<h4>Restaurant 3</h4>
+				<h6>1073 Westlake St</h6>
+				<h6>Lake, ST</h6>
+			</div>
+
 		</section>
 		
 		<script type="text/javascript" src="js/main.js"></script>

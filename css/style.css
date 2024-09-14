@@ -37,6 +37,11 @@ footer {
 
 }
 
+/********/
+/** Display & Alignment/
+/********/
+
+
 .flex {
   display: flex;
 }
@@ -61,19 +66,46 @@ ul {
   list-style: none;
 }
 
+.food {
+  width: 200px;
+}
+
+/********/
+/** Margin/
+/********/
+
+.m1 {
+  margin: 1rem;
+}
+
+/********/
+/** Padding/
+/********/
+
+.p-b6 {
+  padding-bottom: 6rem;
+}
+
+/********/
+/** links/
+/********/
+
 a {
   text-decoration: none;
   color:black;
 }
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
 
-.m1 {
-  margin: 1rem;
-}
+/********/
+/** Font/
+/********/
+
 
 .orange {
   color: orange;
@@ -81,9 +113,57 @@ a {
 
 .title {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 48px;
+  font-size: 60px;
 }
 
-h1, h2 {
-  font-size: 48px;
+.days {
+  font-size: 28px;
+}
+
+
+
+/********/
+/** BG/
+/********/
+
+#Welcome {
+  padding-left: 3rem;
+}
+
+header {
+  background-color: lightsteelblue;
+}
+
+#About {
+  background-color: rgb(255, 253, 187);
+  padding: 3rem;
+  padding-left: 40%;
+  padding-right: 10%;
+}
+
+#Menu {
+  background-color: rgb(230, 226, 255);
+}
+
+#Hours {
+  background-color: rgb(254, 244, 225);
+}
+
+#Blog {
+  background-color:gainsboro;
+}
+
+#locations {
+  background-color: beige;
+}
+
+button {
+  background-color: orange;
+  padding-top: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 5px;
+  border: solid 1px rgb(255, 220, 156);
+  border-radius: 6px;
+  color:white;
 }
