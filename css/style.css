@@ -46,6 +46,10 @@ footer {
   display: flex;
 }
 
+.column {
+  flex-direction: column;
+}
+
 .around {
   justify-content: space-around;
 }
@@ -56,6 +60,10 @@ footer {
 
 .evenly {
   justify-content: space-evenly;
+}
+
+.center {
+  justify-content: center;
 }
 
 .align-c {
@@ -131,18 +139,21 @@ a {
 }
 
 header {
-  background-color: lightsteelblue;
+  background-image: url("../assets/brown-cloth.png");
+  background-size: cover;
 }
 
 #About {
-  background-color: rgb(255, 253, 187);
+  background-image: url("../assets/white-bowls.png");
+  background-size: cover;
   padding: 3rem;
   padding-left: 40%;
   padding-right: 10%;
 }
 
 #Menu {
-  background-color: rgb(230, 226, 255);
+  background-image: url("../assets/wood.png");
+  background-size: cover;
 }
 
 #Hours {
@@ -166,4 +177,8 @@ button {
   border: solid 1px rgb(255, 220, 156);
   border-radius: 6px;
   color:white;
+}
+
+#score {
+  margin-left: -2rem;
 }
