@@ -21,11 +21,6 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
- 
-}
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -33,9 +28,6 @@ nav {
   color: white;
 }
 
-footer {
-
-}
 
 /********/
 /** Display & Alignment/
@@ -89,12 +81,26 @@ ul {
   margin: 1rem;
 }
 
+.m-minus {
+  margin-top: -3rem;
+}
+
 /********/
 /** Padding/
 /********/
 
 .p-b6 {
   padding-bottom: 6rem;
+}
+
+.p-t6 {
+  padding-top: 6rem;
+}
+
+
+h4 {
+  padding-top: 5rem;
+  font-size: 1.5rem;
 }
 
 /********/
@@ -120,6 +126,8 @@ a {
 
 .orange {
   color: orange;
+  font-weight: 800;
+  text-shadow: 3px 2px 5px black;
 }
 
 .title {
@@ -128,10 +136,27 @@ a {
 }
 
 .days {
-  font-size: 28px;
+  font-size: 36px;
+  margin: 1rem 6rem 1rem 6rem;
 }
 
+.font {
+  font-size: 1.5rem;
+}
 
+.box-shadow {
+  box-shadow: 5px 5px 20px black;
+  border: 1px solid rgb(114, 114, 114);
+  border-radius: 1rem;
+}
+
+.shadow {
+  text-shadow: 3px 3px 5px black;
+}
+
+.light-shadow {
+  text-shadow: 3px 3px 6px rgb(255, 255, 255);
+}
 
 /********/
 /** BG/
@@ -163,18 +188,21 @@ header {
 }
 
 #Menu {
-  background-image: url("../assets/wood.png");
+  background-image: url("../assets/spoons.png");
   background-size: cover;
 }
 
 #Hours {
-  background-color: rgb(254, 244, 225);
+  background-image: url("../assets/service-salt.png");
+  background-size: cover;
+  color:white;
 }
 
 #Blog {
-  background-color:gainsboro;
   padding-left: 20%;
   padding-right: 20%;
+  background-image: url("../assets/wood.png");
+  background-size: cover;
 }
 
 #Locations {
@@ -193,8 +221,8 @@ button {
   border-radius: 6px;
   color:white;
 }
-/* 
-#score {
- 
+
+.card {
+  background-color: rgba(236, 255, 224, 0.8);
+  padding: 1.5rem;
 }
- */
